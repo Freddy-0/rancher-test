@@ -1,0 +1,8 @@
+defaultNamespace: default
+# Adjust this if you want to deploy to a different namespace.
+
+targetCustomizations:
+  - name: default
+    clusterSelector: {}
+    kustomize:
+      dir: ./
