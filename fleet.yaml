@@ -5,4 +5,4 @@ targetCustomizations:
   - name: default
     clusterSelector: {}
     kustomize:
-      dir: ./
+      dir: .
